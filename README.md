@@ -2,6 +2,16 @@
 
 Welcome to my personal portfolio website! This site is built with React and Tailwind CSS, and it showcases my projects, skills, and experience. It includes interactive elements and 3D models rendered using Three.js.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
 ## Features
 
 - **Projects**: A showcase of my work, with links to code repositories and live demos.
@@ -19,7 +29,7 @@ Welcome to my personal portfolio website! This site is built with React and Tail
 
 ## Deployment
 
-The site is deployed using GitHub Pages. You can explore the site [here](https://your-github-username.github.io/your-repo-name/).
+The site is deployed using GitHub Pages. You can explore the site [here](https://the-developer-306.github.io/Portfolio-PrathamKhanna/).
 
 ## Getting Started
 
@@ -37,7 +47,7 @@ To get a local copy up and running, follow these simple steps:
 
 3. **Start the development server**
     ```sh
-    npm start
+    npm run dev
     ```
 
 ## Contributing
@@ -52,10 +62,11 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License.
 
 ## Contact
 
-Pratham Khanna - [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile) - [Email](mailto:your-email@example.com)
+For any questions or suggestions, feel free to reach out:
 
-Project Link: [https://github.com/your-github-username/your-repo-name](https://github.com/your-github-username/your-repo-name)
+- GitHub: [the-developer-306](https://github.com/the-developer-306)
+- Email: [whilealivecode127.0.0.1@gmail.com](mailto:whilealivecode127.0.0.1@gmail.com)
