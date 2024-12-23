@@ -20,6 +20,7 @@ import {
   SiMysql,
   SiGit,
   SiJavascript,
+  SiFlask,
 } from "react-icons/si";
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
@@ -143,6 +144,16 @@ const Tech = () => {
             className="p-4"
           >
             <SiJupyter className="text-7xl text-orange-600" />
+          </motion.div>
+
+          {/* Flask */}
+          <motion.div
+            initial="initial"
+            animate="animate"
+            variants={iconVariants(3)}
+            className="p-4"
+          >
+            <SiFlask className="text-7xl text-white" />
           </motion.div>
 
           {/* HTML5 */}
