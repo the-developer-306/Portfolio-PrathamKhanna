@@ -1,9 +1,12 @@
 {
+  "homepage": "https://the-developer-306.github.io/Portfolio-PrathamKhanna",
   "name": "3d-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -15,6 +18,7 @@
     "@react-three/fiber": "^8.17.10",
     "clsx": "^2.1.1",
     "framer-motion": "^11.12.0",
+    "gh-pages": "^6.2.0",
     "maath": "^0.10.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
