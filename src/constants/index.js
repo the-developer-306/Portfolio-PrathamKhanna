@@ -256,7 +256,7 @@ const projects = [
     image: frd,
     source_code_link:
       "https://github.com/the-developer-306/Fake-Review-Detector",
-    deployed_link: "https://fake-review-detector-jhns.onrender.com",
+    deployed_link: "https://the-developer-306.github.io/Fake-Review-Detector/",
   },
   {
     name: "House Price Predictor",
