@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import { drishya, iitm, sih, dsa } from "../assets";
+import { c1, c2, d1, d2, iitm } from "../assets";
 
 const ThreeDCardDemo = ({ cert_name, cert_description, image, image_link }) => {
   return (
@@ -73,34 +73,42 @@ const Certifications = () => {
         <div className="mt-20 flex flex-wrap gap-20 mx-10">
           <div>
             <ThreeDCardDemo
+              cert_name="Practical Multi AI Agents and Advanced Use Cases with crewAI"
+              cert_description="Certificate of Completion @DeepLearning.AI"
+              image_link="https://learn.deeplearning.ai/accomplishments/ef8d4333-98c2-40de-b783-64ac85346d78?usp=sharing"
+              image={d2}
+            />
+          </div>
+          <div>
+            <ThreeDCardDemo
+              cert_name="Multi AI Agent Systems with crewAI"
+              cert_description="Certificate of Completion @DeepLearning.AI"
+              image_link="https://learn.deeplearning.ai/accomplishments/20133983-1b14-4e5a-a666-7c26068b560d?usp=sharing"
+              image={d1}
+            />
+          </div>
+          <div>
+            <ThreeDCardDemo
+              cert_name="Advanced Learning Algorithms"
+              cert_description="Certificate of Completion @Coursera"
+              image_link="https://www.coursera.org/account/accomplishments/verify/P5O8R6BDL53M"
+              image={c2}
+            />
+          </div>
+          <div>
+            <ThreeDCardDemo
+              cert_name="Supervised Machine Learning: Regression and Classification"
+              cert_description="Certificate of Completion @Coursera"
+              image_link="https://www.coursera.org/account/accomplishments/records/SQO39H0QBGD9"
+              image={c1}
+            />
+          </div>
+          <div>
+            <ThreeDCardDemo
               cert_name="Foundation Level (I.I.T. Madras)"
               cert_description="Certificate of Foundational Level in Programming and Data Science"
               image_link="https://drive.google.com/file/d/1M_LiN_1EDcDSha_IMuRy0d2bwel5byq5/view"
               image={iitm}
-            />
-          </div>
-          <div>
-            <ThreeDCardDemo
-              cert_name="Smart India Hackathon"
-              cert_description="Certificate of Appreciation for participating in Smart India Hackathon"
-              image_link="https://drive.google.com/file/d/11DRUbrRhOWnXmo0oy7uk5ezqeuscfT9b/view"
-              image={sih}
-            />
-          </div>
-          <div>
-            <ThreeDCardDemo
-              cert_name="Drishyaa"
-              cert_description="Certificate of Partticipation in career counselling event organised by S.E.B. M.M.M.U.T"
-              image_link="https://drive.google.com/file/d/11bfH2Eiy8_TO1Z5oxaouSnxBDNB4IyDz/view?usp=sharing"
-              image={drishya}
-            />
-          </div>
-          <div>
-            <ThreeDCardDemo
-              cert_name="D.S.A. Master Class"
-              cert_description="Certificate of Participation in DSA Master Class conducted by TECHANALOGY"
-              image_link="https://drive.google.com/file/d/1qdN7C0Qoz9zlea_GgTDlum2N5boTbrOI/view?usp=sharing"
-              image={dsa}
             />
           </div>
         </div>

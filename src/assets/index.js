@@ -31,6 +31,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import CES from "./company/CES.png";
 import tesla from "./company/tesla.png";
+import BPAI from "./company/BPAI.jpg";
 
 import frd from "./projects/frd.jpg";
 import slamps from "./projects/slamps.jpg";
@@ -38,6 +39,7 @@ import restweb from "./projects/restweb.jpg";
 import jarvis from "./projects/jarvis.jpg";
 import comingsoon from "./projects/comingsoon.webp";
 import chatapp from "./projects/chatapp.jpg"
+import nst from "./projects/nst.jpg";
 
 import vibhor from "./people/vibhortandon.jpeg";
 import raunak from "./people/raunakagrawal.jpeg";
@@ -48,10 +50,12 @@ import mmmut from "./institutes/mmmut.png";
 import mhs from "./institutes/mhs.png";
 import halv from "./institutes/halv.png";
 
-import drishya from "./cert/d.jpg";
+import c1 from "./cert/c1.jpg";
+import c2 from "./cert/c2.jpg";
+import d1 from "./cert/d1.jpg";
+import d2 from "./cert/d2.jpg";
 import iitm from "./cert/i.png";
-import sih from "./cert/s.jpg";
-import dsa from "./cert/t.jpg";
+
 
 export {
   logo1,
@@ -79,6 +83,7 @@ export {
   meta,
   shopify,
   CES,
+  BPAI,
   tesla,
   python,
   sklearn,
@@ -91,14 +96,16 @@ export {
   mmmut,
   mhs,
   halv,
-  drishya,
   iitm,
-  dsa,
-  sih,
   frd,
   slamps,
   restweb,
   jarvis,
   comingsoon,
   chatapp,
+  nst,
+  c1,
+  c2,
+  d1,
+  d2,
 };

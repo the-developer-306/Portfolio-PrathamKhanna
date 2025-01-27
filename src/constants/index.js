@@ -17,6 +17,7 @@ import {
   docker,
   meta,
   CES,
+  BPAI,
   tesla,
   shopify,
   threejs,
@@ -36,6 +37,7 @@ import {
   jarvis,
   comingsoon,
   chatapp,
+  nst,
 } from "../assets";
 
 export const navLinks = [
@@ -145,6 +147,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "AI and Analytics Intern",
+    company_name: "Beautiful Planet.AI",
+    icon: BPAI,
+    iconBg: "black",
+    date: "January 2025 - Present",
+    points: [
+      "Built and optimized YOLOv5 models for tree detection and biomass estimation.",
+      "Processed datasets and fine-tuned models for improved accuracy.",
+      "Worked on integrating agentic AI solutions for environmental analytics.",
+      "Collaborated on AI-driven environmental analytics projects.",
+    ],
+  },
   {
     title: "Executive Board Member",
     company_name: "Computer Engineering Society, M.M.M.U.T",
@@ -257,6 +272,29 @@ const projects = [
     source_code_link:
       "https://github.com/the-developer-306/Fake-Review-Detector",
     deployed_link: "https://the-developer-306.github.io/Fake-Review-Detector/",
+  },
+  {
+    name: "Neural Style Transfer",
+    description:
+      "Neural Style Transfer project leverages TensorFlow and VGG19 to blend artistic styles with content images. Features include style and content initialization, multi-layer feature extraction, total variation loss, and post processing enhancements like sharpening, upscaling, and brightening. ",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "VGG19",
+        color: "green-text-gradient",
+      },
+      {
+        name: "open-cv",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nst,
+    source_code_link:
+      "https://github.com/the-developer-306/Neural-Style-Transfer",
+    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
   },
   {
     name: "House Price Predictor",
