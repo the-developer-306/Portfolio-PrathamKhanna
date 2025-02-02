@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import { c1, c2, d1, d2, iitm } from "../assets";
+import { c1, c2, c3, c123, d1, d2, iitm } from "../assets";
 
 const ThreeDCardDemo = ({ cert_name, cert_description, image, image_link }) => {
   return (
@@ -85,6 +85,22 @@ const Certifications = () => {
               cert_description="Certificate of Completion @DeepLearning.AI"
               image_link="https://learn.deeplearning.ai/accomplishments/20133983-1b14-4e5a-a666-7c26068b560d?usp=sharing"
               image={d1}
+            />
+          </div>
+          <div>
+            <ThreeDCardDemo
+              cert_name="Machine Learning Specialization"
+              cert_description="Certificate of Specialization Completion @Coursera"
+              image_link="https://www.coursera.org/account/accomplishments/verify/X512I33AF5I1"
+              image={c123}
+            />
+          </div>
+          <div>
+            <ThreeDCardDemo
+              cert_name="Unsupervised  Learning, Recommenders, Reinforcement Learning"
+              cert_description="Certificate of Completion @Coursera"
+              image_link="https://www.coursera.org/account/accomplishments/verify/X512I33AF5I1"
+              image={c3}
             />
           </div>
           <div>

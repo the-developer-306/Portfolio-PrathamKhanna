@@ -52,6 +52,8 @@ import halv from "./institutes/halv.png";
 
 import c1 from "./cert/c1.jpg";
 import c2 from "./cert/c2.jpg";
+import c3 from "./cert/c3.jpg";
+import c123 from "./cert/c123.jpg";
 import d1 from "./cert/d1.jpg";
 import d2 from "./cert/d2.jpg";
 import iitm from "./cert/i.png";
@@ -108,4 +110,6 @@ export {
   c2,
   d1,
   d2,
+  c3,
+  c123,
 };
