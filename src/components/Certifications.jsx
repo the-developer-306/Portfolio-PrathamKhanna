@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import { c1, c2, c3, c123, d1, d2, iitm } from "../assets";
+import { c1, c2, c3, c4, c123, d1, d2, iitm } from "../assets";
 
 const ThreeDCardDemo = ({ cert_name, cert_description, image, image_link }) => {
   return (
@@ -73,6 +73,15 @@ const Certifications = () => {
         <div className="mt-20 flex flex-wrap gap-20 mx-10">
           <div>
             <ThreeDCardDemo
+              cert_name="Generative AI with Large Language Models"
+              cert_description="Certificate of Completion @AWS @Coursera"
+              image_link="https://www.coursera.org/account/accomplishments/verify/FV33WXDO05U3"
+              image={c4}
+            />
+          </div>
+
+          <div>
+            <ThreeDCardDemo
               cert_name="Practical Multi AI Agents and Advanced Use Cases with crewAI"
               cert_description="Certificate of Completion @DeepLearning.AI"
               image_link="https://learn.deeplearning.ai/accomplishments/ef8d4333-98c2-40de-b783-64ac85346d78?usp=sharing"
@@ -91,7 +100,7 @@ const Certifications = () => {
             <ThreeDCardDemo
               cert_name="Machine Learning Specialization"
               cert_description="Certificate of Specialization Completion @Coursera"
-              image_link="https://www.coursera.org/account/accomplishments/verify/X512I33AF5I1"
+              image_link="https://www.coursera.org/account/accomplishments/specialization/S2UCWTKEEEZ0"
               image={c123}
             />
           </div>
