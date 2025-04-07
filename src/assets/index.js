@@ -57,6 +57,7 @@ import c123 from "./cert/c123.jpg";
 import c4 from "./cert/c4.jpg";
 import d1 from "./cert/d1.jpg";
 import d2 from "./cert/d2.jpg";
+import d3 from "./cert/d3.jpg";
 import iitm from "./cert/i.png";
 
 
@@ -114,4 +115,5 @@ export {
   c3,
   c123,
   c4,
+  d3,
 };
