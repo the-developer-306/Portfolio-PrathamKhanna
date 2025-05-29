@@ -38,6 +38,7 @@ import {
   comingsoon,
   chatapp,
   nst,
+  arch,
 } from "../assets";
 
 export const navLinks = [
@@ -250,6 +251,50 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Agentic AI Competitor Intelligence Agent Team",
+    description:
+      "The AI Competitor Intelligence Agent Team is a powerful competitor analysis tool powered by Firecrawl and Agno's AI Agent framework. This app helps businesses analyze their competitors by extracting structured data from competitor websites and generating actionable insights using AI.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FireCrawl",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Agno Agents",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: comingsoon,
+    source_code_link: "https://github.com/the-developer-306/Compintell",
+    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
+  },
+  {
+    name: "Agentic AI Software Architecture Analyzer",
+    description:
+      "An Agno agentic system that provides expert software architecture analysis and recommendations using a dual-model approach combining DeepSeek R1's Reasoning and Claude. The system provides detailed technical analysis, implementation roadmaps, and architectural decisions for complex software systems.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "StreamLit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "DeepSeek",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: arch,
+    source_code_link: "https://github.com/the-developer-306/Architex",
+    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
+  },
   {
     name: "Fake Review Detector",
     description:

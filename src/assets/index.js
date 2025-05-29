@@ -40,6 +40,7 @@ import jarvis from "./projects/jarvis.jpg";
 import comingsoon from "./projects/comingsoon.webp";
 import chatapp from "./projects/chatapp.jpg"
 import nst from "./projects/nst.jpg";
+import arch from "./projects/arch.jpg";
 
 import vibhor from "./people/vibhortandon.jpeg";
 import raunak from "./people/raunakagrawal.jpeg";
@@ -58,6 +59,7 @@ import c4 from "./cert/c4.jpg";
 import d1 from "./cert/d1.jpg";
 import d2 from "./cert/d2.jpg";
 import d3 from "./cert/d3.jpg";
+import d4 from "./cert/d4.jpg";
 import iitm from "./cert/i.png";
 
 
@@ -116,4 +118,6 @@ export {
   c123,
   c4,
   d3,
+  d4,
+  arch,
 };

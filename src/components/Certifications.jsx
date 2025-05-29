@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import { c1, c2, c3, c4, c123, d1, d2, d3, iitm } from "../assets";
+import { c1, c2, c3, c4, c123, d1, d2, d3, d4, iitm } from "../assets";
 
 const ThreeDCardDemo = ({ cert_name, cert_description, image, image_link }) => {
   return (
@@ -71,6 +71,14 @@ const Certifications = () => {
 
       <motion.div>
         <div className="mt-20 flex flex-wrap gap-20 mx-10">
+          <div>
+            <ThreeDCardDemo
+              cert_name="LangChain Chat with Your Data"
+              cert_description="Certificate of Completion @DeepLearning.AI"
+              image_link="https://learn.deeplearning.ai/accomplishments/b1077a06-2944-4344-b5af-ccada37a5610?usp=sharing"
+              image={d4}
+            />
+          </div>
           <div>
             <ThreeDCardDemo
               cert_name="LangChain for LLM Application Development"
