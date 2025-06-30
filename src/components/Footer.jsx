@@ -14,7 +14,7 @@ const Footer = () => {
             M-33, M-Zone, H.A.L Township, Sunabeda, Koraput, Odisha-763002,
             India.
           </p>
-          <p className="mt-1 text-secondary">Phone: +91 8840942759</p>
+          <p className="mt-1 text-secondary">Phone: +91 8924922903</p>
           <p className="mt-1 text-secondary">
             Email: prathamkhanna.er2@gmail.com
           </p>

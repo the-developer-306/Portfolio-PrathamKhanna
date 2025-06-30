@@ -38,7 +38,9 @@ import {
   comingsoon,
   chatapp,
   nst,
-  arch,
+  rogi,
+  compintell,
+  hal
 } from "../assets";
 
 export const navLinks = [
@@ -74,7 +76,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Artificial Intelligence Developer",
+    title: "Generative AI Developer",
     icon: mobile,
   },
   {
@@ -149,16 +151,40 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Summer Intern",
+    company_name: "Hindustan Aeronautics Limited (H.A.L.)",
+    icon: hal,
+    iconBg: "black",
+    date: "June 2025 - July 2025",
+    points: [
+      "Built “RogiMitra.AI” — an AI-powered medical consultation and diagnosis web application.",
+      "Helps patients get quick diagnostic reports and prescriptions based on symptoms and reports.",
+      "Uses CrewAI agents to analyze symptoms, medications, and lab reports for intelligent diagnosis.",
+      "Developed using Python, Streamlit, MongoDB Atlas, Cloudinary, DeepSeek LLM, FPDF, and Tavily API.",
+    ],
+  },
+  {
+    title: "AI/ML Head",
+    company_name: "Computer Engineering Society, M.M.M.U.T",
+    icon: CES,
+    iconBg: "black",
+    date: "May 2025 - Present",
+    points: [],
+  },
+  {
     title: "AI and Analytics Intern",
     company_name: "Beautiful Planet.AI",
     icon: BPAI,
     iconBg: "black",
-    date: "January 2025 - Present",
+    date: "January 2025 - June 2025",
     points: [
-      "Built and optimized YOLOv5 models for tree detection and biomass estimation.",
-      "Processed datasets and fine-tuned models for improved accuracy.",
-      "Worked on integrating agentic AI solutions for environmental analytics.",
-      "Collaborated on AI-driven environmental analytics projects.",
+      "Built an Agentic AI Legal Workflow: Developed a multi-agent system using LangChain, CrewAI, and RAG to automate legal case analysis, integrating OCR, ChromaDB, and  DeepSeek for document digitization and intelligent retrieval.",
+
+      "Enhanced Forest Biomass Estimation with Computer Vision: Fine-tuned YOLOv5 on over 10k images for tree detection, improving biomass prediction across varied forest terrains via advanced augmentation and hyperparameter tuning.",
+
+      "Deployed Cross-Platform Leaf Disease Detection Model: Trained a ResNet-9 model achieving 97%+ accuracy across 36 disease classes, then deployed using ONNX for fast and lightweight agricultural diagnostics.",
+
+      "End-to-End Ownership with Modular, Scalable Architectures: Designed robust, modular pipelines combining cutting-edge tools like LiteLLM, LMStudio, and ONNX—demonstrating full-stack capability from model development to deployment.",
     ],
   },
   {
@@ -166,12 +192,12 @@ const experiences = [
     company_name: "Computer Engineering Society, M.M.M.U.T",
     icon: CES,
     iconBg: "black",
-    date: "June 2023 - Present",
+    date: "June 2023 - May 2025",
     points: [
       "Development CTF questions including concepts of Cryptography, Steganography, Web exploitation.",
       "Collaborative Deployment of CTF Website using Microsoft Azure, Docker, Kubernetes.",
       "Development of Competitive Programming questions.",
-      "Organised Coding Contests on for junior year students on plateforms such as Hackerrank, Codechef.",
+      "Organised Coding Contests on for junior year students on platforms such as Hackerrank, CodeChef.",
     ],
   },
   // {
@@ -252,34 +278,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Agentic AI Competitor Intelligence Agent Team",
+    name: "RogiMitra.AI Automated Medical Diagnostics and Prescription System",
     description:
-      "The AI Competitor Intelligence Agent Team is a powerful competitor analysis tool powered by Firecrawl and Agno's AI Agent framework. This app helps businesses analyze their competitors by extracting structured data from competitor websites and generating actionable insights using AI.",
+      "RogiMitra.AI is an intelligent agentic web platform that enables users to submit medical symptoms, medications, and lab reports to receive AI-generated diagnostic reports and prescriptions — reviewed and enhanced by real doctors.",
     tags: [
       {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "FireCrawl",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Agno Agents",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: comingsoon,
-    source_code_link: "https://github.com/the-developer-306/Compintell",
-    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
-  },
-  {
-    name: "Agentic AI Software Architecture Analyzer",
-    description:
-      "An Agno agentic system that provides expert software architecture analysis and recommendations using a dual-model approach combining DeepSeek R1's Reasoning and Claude. The system provides detailed technical analysis, implementation roadmaps, and architectural decisions for complex software systems.",
-    tags: [
-      {
-        name: "Python",
+        name: "CrewAI",
         color: "blue-text-gradient",
       },
       {
@@ -291,8 +295,55 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: arch,
-    source_code_link: "https://github.com/the-developer-306/Architex",
+    image: rogi,
+    source_code_link:
+      "https://github.com/the-developer-306/RogiMitra.AI-Automated_Medical_Diagnosis_and_Prescription_System",
+    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
+  },
+  {
+    name: "CompIntell AI-Powered Competitor Intelligence System",
+    description:
+      "An intelligent, file-aware platform that helps businesses analyze competitors, extract insights from internal documents, and generate detailed strategy + SWOT reports using LLMs and RAG",
+    tags: [
+      {
+        name: "LangChain",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FireCrawl",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Exa AI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: compintell,
+    source_code_link:
+      "https://github.com/the-developer-306/Comp_Intell-AI-Competitor-Intelligence-System",
+    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
+  },
+  {
+    name: "Neural Style Transfer",
+    description:
+      "Neural Style Transfer project leverages TensorFlow and VGG19 to blend artistic styles with content images. Features include style and content initialization, multi-layer feature extraction, total variation loss, and post processing enhancements like sharpening, upscaling, and brightening. ",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "VGG19",
+        color: "green-text-gradient",
+      },
+      {
+        name: "open-cv",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nst,
+    source_code_link:
+      "https://github.com/the-developer-306/Neural-Style-Transfer",
     deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
   },
   {
@@ -317,29 +368,6 @@ const projects = [
     source_code_link:
       "https://github.com/the-developer-306/Fake-Review-Detector",
     deployed_link: "https://the-developer-306.github.io/Fake-Review-Detector/",
-  },
-  {
-    name: "Neural Style Transfer",
-    description:
-      "Neural Style Transfer project leverages TensorFlow and VGG19 to blend artistic styles with content images. Features include style and content initialization, multi-layer feature extraction, total variation loss, and post processing enhancements like sharpening, upscaling, and brightening. ",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "VGG19",
-        color: "green-text-gradient",
-      },
-      {
-        name: "open-cv",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nst,
-    source_code_link:
-      "https://github.com/the-developer-306/Neural-Style-Transfer",
-    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
   },
   {
     name: "House Price Predictor",

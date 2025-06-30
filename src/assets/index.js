@@ -32,6 +32,7 @@ import shopify from "./company/shopify.png";
 import CES from "./company/CES.png";
 import tesla from "./company/tesla.png";
 import BPAI from "./company/BPAI.jpg";
+import hal from "./company/hal.png";
 
 import frd from "./projects/frd.jpg";
 import slamps from "./projects/slamps.jpg";
@@ -40,7 +41,8 @@ import jarvis from "./projects/jarvis.jpg";
 import comingsoon from "./projects/comingsoon.webp";
 import chatapp from "./projects/chatapp.jpg"
 import nst from "./projects/nst.jpg";
-import arch from "./projects/arch.jpg";
+import rogi from "./projects/rogi.jpg";
+import compintell from "./projects/compintell.jpg";
 
 import vibhor from "./people/vibhortandon.jpeg";
 import raunak from "./people/raunakagrawal.jpeg";
@@ -119,5 +121,7 @@ export {
   c4,
   d3,
   d4,
-  arch,
+  compintell,
+  rogi,
+  hal
 };
