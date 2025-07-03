@@ -321,7 +321,7 @@ const projects = [
     image: compintell,
     source_code_link:
       "https://github.com/the-developer-306/Comp_Intell-AI-Competitor-Intelligence-System",
-    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
+    deployed_link: "https://compintell-ai.streamlit.app/",
   },
   {
     name: "Neural Style Transfer",
