@@ -298,7 +298,7 @@ const projects = [
     image: rogi,
     source_code_link:
       "https://github.com/the-developer-306/RogiMitra.AI-Automated_Medical_Diagnosis_and_Prescription_System",
-    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
+    deployed_link: "https://rogimitra-ai.streamlit.app/",
   },
   {
     name: "CompIntell AI-Powered Competitor Intelligence System",
