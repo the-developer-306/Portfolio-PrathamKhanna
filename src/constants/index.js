@@ -40,7 +40,8 @@ import {
   nst,
   rogi,
   compintell,
-  hal
+  hal,
+  nex
 } from "../assets";
 
 export const navLinks = [
@@ -370,6 +371,28 @@ const projects = [
     deployed_link: "https://the-developer-306.github.io/Fake-Review-Detector/",
   },
   {
+    name: "Nexify",
+    description:
+      "Nexify is a cutting-edge web application for real-time messaging, designed for modern users and scalable business needs. Built with the robust MERN stack (MongoDB, Express.js, React.js, Node.js) and enhanced by Socket.IO, Nexify delivers instant messaging with a secure, sleek, and highly customizable user experience.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Daisy UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nex,
+    source_code_link: "https://github.com/the-developer-306/Nexify",
+    deployed_link: "https://nexify-yz99.onrender.com/",
+  },
+  {
     name: "House Price Predictor",
     description:
       "Harnessing machine learning algorithms to forecast housing prices, empowering buyers and sellers with accurate predictions based on key factors like location, crime rate, rooms, accessibility, and more.",
@@ -438,28 +461,6 @@ const projects = [
     ],
     image: comingsoon,
     source_code_link: "https://github.com/the-developer-306/J.A.R.V.I.S-2.0",
-    deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
-  },
-  {
-    name: "Chat Application",
-    description:
-      "Cosneckt is a web-based chat application designed to facilitate real-time communication between users.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Socket.io",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chatapp,
-    source_code_link: "https://github.com/the-developer-306/Cosneckt",
     deployed_link: "https://the-developer-306.github.io/coming-soon-page/",
   },
   {

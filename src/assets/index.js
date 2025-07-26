@@ -43,6 +43,7 @@ import chatapp from "./projects/chatapp.jpg"
 import nst from "./projects/nst.jpg";
 import rogi from "./projects/rogi.jpg";
 import compintell from "./projects/compintell.jpg";
+import nex from "./projects/nex.jpg";
 
 import vibhor from "./people/vibhortandon.jpeg";
 import raunak from "./people/raunakagrawal.jpeg";
@@ -123,5 +124,6 @@ export {
   d4,
   compintell,
   rogi,
-  hal
+  hal,
+  nex
 };
