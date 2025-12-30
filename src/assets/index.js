@@ -63,6 +63,7 @@ import d1 from "./cert/d1.jpg";
 import d2 from "./cert/d2.jpg";
 import d3 from "./cert/d3.jpg";
 import d4 from "./cert/d4.jpg";
+import d5 from "./cert/d5.jpg";
 import iitm from "./cert/i.png";
 
 
@@ -122,6 +123,7 @@ export {
   c4,
   d3,
   d4,
+  d5,
   compintell,
   rogi,
   hal,

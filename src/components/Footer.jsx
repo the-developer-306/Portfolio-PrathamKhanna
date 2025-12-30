@@ -55,7 +55,7 @@ const Footer = () => {
               <SiGeeksforgeeks size={24} />
             </a>
             <a
-              href="https://leetcode.com/u/Ngvi4fpIWB/"
+              href="https://leetcode.com/u/theDeveloper_306/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-gray-400"
@@ -83,7 +83,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-6 text-center text-gray-500 text-m">
-        <span className="blue-text-gradient">{new Date().getFullYear()}</span> &nbsp;
+        <span className="blue-text-gradient">{new Date().getFullYear()}</span>{" "}
+        &nbsp;
         <span>Pratham Khanna.</span> Powered by open-source tools and
         community-driven designs.
       </div>
