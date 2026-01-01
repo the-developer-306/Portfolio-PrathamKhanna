@@ -41,7 +41,8 @@ import {
   rogi,
   compintell,
   hal,
-  nex
+  nex,
+  musllp
 } from "../assets";
 
 export const navLinks = [
@@ -151,6 +152,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Associate Software Engineer (AI Development)",
+    company_name: "MetaUpSpace LLP",
+    icon: musllp,
+    iconBg: "black",
+    date: "September 2025 - December 2025",
+    points: [
+      "Built an enterprise multi-agent ConvoSynth AI Engine using sequential pipelines with Graph RAG and agentic RAG to convert user inputs into complete HTML presentations.",
+      "Designed and optimized 10+ specialized agents with sub-2s latency and <15s total generation for 8–10 slide outputs. ",
+      "Implemented document processing with RAG-Anything, metadata filters, RBAC, and 95%+ accuracy on financial documents.",
+      "Developed using Python, FastAPI, LangChain, LightRAG, multi-LLM orchestration, RAG-Anything, and related AI tooling.",
+    ],
+  },
   {
     title: "Summer Intern",
     company_name: "Hindustan Aeronautics Limited (H.A.L.)",

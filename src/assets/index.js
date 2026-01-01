@@ -33,6 +33,7 @@ import CES from "./company/CES.png";
 import tesla from "./company/tesla.png";
 import BPAI from "./company/BPAI.jpg";
 import hal from "./company/hal.png";
+import musllp from "./company/musllp.png";
 
 import frd from "./projects/frd.jpg";
 import slamps from "./projects/slamps.jpg";
@@ -127,5 +128,6 @@ export {
   compintell,
   rogi,
   hal,
-  nex
+  nex,
+  musllp
 };
