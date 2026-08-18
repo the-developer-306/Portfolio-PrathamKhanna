@@ -34,6 +34,8 @@ import tesla from "./company/tesla.png";
 import BPAI from "./company/BPAI.jpg";
 import hal from "./company/hal.png";
 import musllp from "./company/musllp.png";
+import hcltech from "./company/hcltech.jpg";
+import wingify from "./company/wingify.jpg";
 
 import frd from "./projects/frd.jpg";
 import slamps from "./projects/slamps.jpg";
@@ -129,5 +131,7 @@ export {
   rogi,
   hal,
   nex,
-  musllp
+  musllp,
+  hcltech,
+  wingify,
 };

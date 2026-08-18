@@ -42,7 +42,9 @@ import {
   compintell,
   hal,
   nex,
-  musllp
+  musllp,
+  hcltech,
+  wingify,
 } from "../assets";
 
 export const navLinks = [
@@ -153,7 +155,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Associate Software Engineer (AI Development)",
+    title: "Engineering - Intern @GenAI",
+    company_name: "Wingify Software Pvt. Ltd.",
+    icon: wingify,
+    iconBg: "black",
+    date: "March 2026 - Ongoing",
+    points: [
+      "Enhanced overall response quality and shipped guardrails, prompt engineering, and campaign debugger fixes across Data360, Segmentation and URL and Pages modules.",
+      "Improved Data360 & Campaign Targeting with 100% reduction in incorrect responses; Data360: top-ups ↓ 83%, directly-marked-pending ↑ 40% → 50%; Campaign Targeting: top-ups ↓ ~100%, directly-marked cases ↑ 36.4% → 75%.",
+      "Developed LLM-powered Contracts Validation Tool using Google Gemini for contract data extraction (through SpotDraft), validation and normalization, with automated Salesforce Order Form updates via REST APIs, reducing manual RevOps effort.",
+      "Delivered 65 Jira tickets, 32 merged PRs and 144 Git commits across production-facing AI and automation workflows.",
+      "Technologies Used: Python, FastAPI, CrewAI, LangChain, LlamaIndex, Azure OpenAI, ChromaDB, MongoDB, Redis, Salesforce API, Langfuse, SpotDraft.",
+    ],
+  },
+  {
+    title: "Initial Learning Program (I.L.P.)",
+    company_name: "H.C.L. Tech.",
+    icon: hcltech,
+    iconBg: "black",
+    date: "December 2025 - Feb 2026",
+    points: [
+      "Strengthened foundation in JAVA, Spring Boot, REST APIs, JPA, testing, Git, Docker, Kubernetes and CI/CD with emphasis on backend development and software engineering practices.",
+    ],
+  },
+  {
+    title: "Associate AI Engineer",
     company_name: "MetaUpSpace LLP",
     icon: musllp,
     iconBg: "black",
@@ -183,7 +209,7 @@ const experiences = [
     company_name: "Computer Engineering Society, M.M.M.U.T",
     icon: CES,
     iconBg: "black",
-    date: "May 2025 - Present",
+    date: "May 2025 - July 2026",
     points: [],
   },
   {
